@@ -1,0 +1,16 @@
+- entrada do nome do cliente
+- entrada do peso
+- entrada da altura
+- aplicar a fórmula do IMC
+- mostrar na tela o resultado
+
+- se imc menor que 18,5, informar que está abaixo do peso
+- senão, se imc menor que 25, informar que está no peso ideal
+- senão, se imc menor que 30, informar que está com pré-obesidade
+- senão, se imc menor que 35, informar que está com Obesidade de grau 1
+- senão, se imc menor que 40, informar que está com Obesidade de grau 2
+- senão, informar que está com Obesidade de grau 3
+
+armazenar o nome do cliente
+armazenar o imc
+armazenar a data
