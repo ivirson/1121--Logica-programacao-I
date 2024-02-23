@@ -16,19 +16,31 @@
 
 const n = 5;
 
+// function fibonacci(n) {
+//   let resultado = [0, 1];
+
+//   if (n <= 2) {
+//     return resultado.slice(0, n).join(", ");
+//   }
+
+//   for (let i = 1; i < n; i++) {
+//     let soma = resultado[i] + resultado[i - 1];
+//     resultado.push(soma);
+//   }
+
+//   return resultado.join(", ");
+// }
+
 function fibonacci(n) {
-  let resultado = [0, 1];
-
-  if (n <= 2) {
-    return resultado.slice(0, n).join(", ");
+  if (n === 1) {
+    return 0;
   }
 
-  for (let i = 1; i < n; i++) {
-    let soma = resultado[i] + resultado[i - 1];
-    resultado.push(soma);
+  if (n === 2) {
+    return 1;
   }
 
-  return resultado.join(", ");
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 console.log(fibonacci(n));
